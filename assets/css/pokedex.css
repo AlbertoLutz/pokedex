@@ -1,5 +1,99 @@
+:root {
+    --normal: #a6a877;
+    --grass: #77c850;
+    --fire: #ee7f30;
+    --whater: #678fee;
+    --eletric: #f7cf2e;
+    --ice: #98d5d7;
+    --ground: #dfbf69;
+    --flying: #a98ff0;
+    --poison: #a040a0;
+    --fighting: #bf3029;
+    --psychic: #f65687;
+    --dark: #725847;
+    --rock: #b8a137;
+    --bug: #a8b720;
+    --ghost: #6e5896;
+    --steel: #b9b7cf;
+    --dragon: #6f38f6;
+    --fairy: #f9aec7;
+
+}
+
+.normal {
+    background-color: var(--normal);
+}
+
+.grass {
+    background-color: var(--grass);
+}
+
+.fire {
+    background-color: var(--fire);
+}
+
+.water {
+    background-color: var(--whater);
+}
+
+.electric {
+    background-color: var(--eletric);
+}
+
+.ice {
+    background-color: var(--ice);
+}
+
+.ground {
+    background-color: var(--ground);
+}
+
+.flying {
+    background-color: var(--flying);
+}
+
+.poison {
+    background-color: var(--poison);
+}
+
+.fighting {
+    background-color: var(--fighting);
+}
+
+.psychic {
+    background-color: var(--psychic);
+}
+
+.dark {
+    background-color: var(--dark);
+}
+
+.rock {
+    background-color: var(--rock);
+}
+
+.bug {
+    background-color: var(--bug);
+}
+
+.ghost {
+    background-color: var(--ghost);
+}
+
+.steel {
+    background-color: var(--steel);
+}
+
+.dragon {
+    background-color: var(--dragon);
+}
+
+.fairy {
+    background-color: var(--fairy);
+}
+
 .content {
-    padding: 1rem;    
+    padding: 1rem;
     background-color: #fff;
     height: 100vh;
     width: 100vw;
@@ -18,8 +112,7 @@
     flex-direction: column;
     margin: .5rem;
     padding: 1rem;
-    border-radius: 1rem;   
-    background-color: #49d0ba;    
+    border-radius: 1rem;
 }
 
 .pokemon .number {
@@ -30,6 +123,7 @@
 }
 
 .pokemon .name {
+    text-transform: capitalize;
     color: #fff;
     margin-bottom: 0.25rem;
 }
@@ -48,12 +142,13 @@
 }
 
 .pokemon .detail .types .type {
-    background-color: #61e1ca;
     color: #fff;
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;
     border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
 }
 
 .pokemon .detail img {
