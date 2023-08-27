@@ -24,25 +24,11 @@
   <body>
     <section class="content">
       <h1>Pokedex</h1>
-      <ol id="pokemonList" class="pokemons">
-        <li class="pokemon">
-          <span class="number">#001</span>
-          <span class="name">Bulbassaur </span>
-
-          <div class="detail">
-            <ol class="types">
-              <li class="type">grass</li>
-              <li class="type">poison</li>
-              <li></li>
-            </ol>
-            <img
-              src="https://raw.githubusercontent.com/jnovack/pokemon-svg/3c3ea26da58331d7202e7cdb1aab9b8347d8587f/svg/1.svg"
-              alt="Bulbassaur"
-            />
-          </div>
-        </li>
-      </ol>
+      <ol id="pokemonList" class="pokemons"></ol>
     </section>
+    <div class="pagination">
+      <button type="button" id="loadMoreButton">Load More</button>
+    </div>
   </body>
   <script src="/assets/js/pokemon-model.js"></script>
   <script src="/assets/js/poke-api.js"></script>
